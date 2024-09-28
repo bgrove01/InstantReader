@@ -11,6 +11,7 @@ import SwiftData
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var items: [Item]
+    private var words = ["the", "be", "to", "of", "and", "a", "in", "that", "have", "I"]
 
     var body: some View {
         NavigationSplitView {
@@ -40,7 +41,7 @@ struct ContentView: View {
                 }
             }
         } detail: {
-            Text("Select an item")
+            Text(words.randomElement()!)
         }
     }
 

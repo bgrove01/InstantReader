@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3E4DAE192CA8530D006C8C0C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3E4DAE182CA8530D006C8C0C /* README.md */; };
+		3E4DAE1B2CA8532A006C8C0C /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 3E4DAE1A2CA8532A006C8C0C /* CHANGELOG.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		3E4DADD82CA84F9E006C8C0C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		3E4DADC42CA84F9D006C8C0C /* InstantReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstantReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E4DADD72CA84F9E006C8C0C /* InstantReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstantReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E4DADE12CA84F9E006C8C0C /* InstantReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstantReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4DAE182CA8530D006C8C0C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E4DAE1A2CA8532A006C8C0C /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +82,8 @@
 		3E4DADBB2CA84F9D006C8C0C = {
 			isa = PBXGroup;
 			children = (
+				3E4DAE1A2CA8532A006C8C0C /* CHANGELOG.md */,
+				3E4DAE182CA8530D006C8C0C /* README.md */,
 				3E4DADC62CA84F9D006C8C0C /* InstantReader */,
 				3E4DADDA2CA84F9E006C8C0C /* InstantReaderTests */,
 				3E4DADE42CA84F9E006C8C0C /* InstantReaderUITests */,
@@ -212,6 +221,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E4DAE192CA8530D006C8C0C /* README.md in Resources */,
+				3E4DAE1B2CA8532A006C8C0C /* CHANGELOG.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
